@@ -1,161 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--title-->
-    <title>Mayank Shekhar - Programmer | Web Developer</title>
-    <!--jQuery imported-->
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!--JavaScript file imported-->
-    <script src = "magic/index.js"></script>
-    <!--Awesomeness imported-->
-    <script src = "https://use.fontawesome.com/2b9a53c46f.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <!--Importing my signature style-->
-    <link rel = "stylesheet" type = "text/css" href = "magic/index.css">
-    <link rel = "stylesheet" type = "text/css" href = "magic/animate.css">
-</head>
-
-<body>
-    <!--Made by Mayank Shekhar-->
-    <div id='intro'>
-        <img src='magic/dp.png' alt='Mayank Shekhar'>
-        <div id='name'>
-            <h1>Mayank Shekhar</h1>
-            <nav>
-                <button id='project'><i class="fa fa-laptop" aria-hidden="true"></i> Projects</button>
-                <button id='inf'><i class="fa fa-info" aria-hidden="true"></i> About Me</button>
-                <button id='contac'><i class="fa fa-envelope-o" aria-hidden="true"></i> Get in touch</button>
-            </nav>
-        </div>
-    </div>
-    
-    <div class='container' id='projects'>
-        <div class='sidebar'>
-            <button class='back'>&lt; </button>
-            <h2>Projects</h2>
-            <button id='menu'><i class="fa fa-bars" aria-hidden="true"></i> List</button> 
-            <div class='list' style='text-align: left'>
-				<div class='P1' id='p1'>Audit webapp</div>
-				<div class='P10' id='p10'>Blogging Software</div>
-                <div class='P11' id='p11'>Calcy</div>
-                <div class='P2' id='p2'>Pomodoro Clock</div>
-                <div class='P3' id='p3'>Simon Game</div>
-                <div class='P4' id='p4'>Tic Tac Toe</div>
-                <div class='P5' id='p5'>Random Quotes Machine</div>
-                <div class='P6' id='p6'>Twitch Streamers</div>
-                <div class='P7' id='p7'>Weatherly</div>
-                <div class='P8' id='p8'>Wiki Search</div>
-                <div class='P9' id='p9'>WordOut</div>
-            </div> <hr>
-        </div>
-        <div class='details'>
-			<div class='P1'>
-                <h2>Audit webapp</h2> <a target='_blank' href='https://us-central1-audit-app-819d8.cloudfunctions.net/app/home'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <p>Worked on the design of the Audit webapp.</p>
-                <div style='text-align: center'>
-                    <img src='magic/pics/audit1.png' alt='screenshot' width='500'><br><br>
-                    <img src='magic/pics/audit2.png' alt='screenshot' width='500'>
+    <head>
+        <title>Mayank Shekhar</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Mayank Shekhar is web developer and a web designer.">
+        <meta name="author" content="Mayank Shekhar">
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <!-- js, popper.js, jquery -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/nj.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header clearfix">
+              <nav>
+                <ul class="nav nav-pills float-right">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                </ul>
+              </nav>
+              <h3 class="text-muted">Mayank Shekhar</h3>
+            </header>
+      
+            <main role="main">
+      
+              <div class="jumbotron">
+                <p class="lead">I am Mayank Shekhar currently in final year of B.tech CS&AMP;E. My passion is to build functioning and user friendly websites.</p>
+                <p><a class="btn btn-lg btn-success" href="mailto:mayankshekhar03@gmail.com" role="button">Send me an E-mail</a></p>
+              </div>
+      
+              <div class="row marketing">
+                <h3>Some of my recent projects:</h3>
+                <div class="col-lg-6">
+                  <h4><a target='_blank' href='https://us-central1-audit-app-819d8.cloudfunctions.net/app/home'>Audit webapp</a></h4>
+                  <p>Worked on the frontend of an Audit webapp which does GAP analysis.</p>
+      
+                  <h4><a target='_blank' href='http://mayankshekhar03.github.io/pomodo'>Pomodoro clock</a></h4>
+                  <p>Built a pomodoro clock which runs in a browser. Used HTML, CSS, and jQuery. </p>
+      
+                  <h4><a target='_blank' href='http://mayankshekhar03.github.io/simon'>Simon Game</a></h4>
+                  <p>Built the memory game Simon with two difficulty modes.</p>
                 </div>
-            </div>
-			<div class='P10'>
-                <h2>Blogging Software</h2> <a target='_blank' href='https://mayankshekhar03.pythonanywhere.com'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <p>Created a very simple blogging sofware with comments functionality using Django.</p>
-                <div style='text-align: center'>
-                    <img src='magic/pics/blog.PNG' alt='screenshot' width='500'>
+      
+                <div class="col-lg-6">
+                  <h4><a target='_blank' href='http://mayankshekhar03.github.io/tic-tac-toe'>Tic Tac Toe Game</a></h4>
+                  <p>Tic Tac Toe game built using jQuery. Users can play mith machine or between each other.</p>
+      
+                  <h4><a target='_blank' href='http://mayankshekhar03.github.io/weatherly'>Weatherly</a></h4>
+                  <p>Simple weather webapp which show weather at current location.</p>
+      
+                  <h4><a target='_blank' href='http://mayankshekhar03.github.io/wiki-search'>Wiki-Search</a></h4>
+                  <p>Search articles on Wikipedia.</p>
                 </div>
-            </div>
-            <div class='P11'>
-                <h2>Calcy</h2> <a target='_blank' href='http://mayankshekhar03.github.io/calcy'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <p>Built a calculator which supports chain input.</p>
-                <div style='text-align: center'>
-                    <img src='magic/pics/calcy.png' alt='screenshot' width='500'>
-                </div>
-            </div>
-            <div class='P2'>
-                <h2>Pomodoro Clock</h2> <a target='_blank' href='http://mayankshekhar03.github.io/pomodo'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <p>Keep track of your activities. Be time bound.</p>
-                <div style='text-align: center;'>
-                    <img src='magic/pics/pomodo.png' alt='screenshot' width='500'>
-                </div>
-            </div>
-            <div class='P3'>
-                <h2>Simon</h2> <a target='_blank' href='http://mayankshekhar03.github.io/simon'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <p>A memory game.</p>
-                <div style='text-align: center'>
-                    <img src='magic/pics/simon.png' alt='screenshot'  width='500'>
-                </div>
-            </div>
-            <div class='P4'>
-                <h2>Tic Tac Toe</h2> <a target='_blank' href='http://mayankshekhar03.github.io/tic-tac-toe'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <div style='text-align: center'>
-                    <img src='magic/pics/tic.png' alt='screenshot' width='500'>
-                </div>
-            </div>
-            <div class='P5'>
-                <h2>Random Quotes Machine</h2> <a target='_blank' href='http://mayankshekhar03.github.io/random-pro-quotes'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <p>Quotes machine which displays random quotes and gives user the ability to share on WhatsApp and Twitter.</p>
-                <div style='text-align: center;'>
-                    <img src='magic/pics/quotes.png' alt='screenshot' width='500'>
-                </div>
-            </div>
-            <div class='P6'>
-                <h2>Twitch Streamers</h2> <a target='_blank' href='http://mayankshekhar03.github.io/twitch'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                
-                <div style='text-align: center'>
-                    <img src='magic/pics/twitch.png' alt='screenshot' width='500'>
-                </div>
-            </div>
-            <div class='P7'>
-                <h2>Weatherly</h2> <a target='_blank' href='http://mayankshekhar03.github.io/weatherly'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <p>Shows weather ☀️ at the current location.</p>
-                <div style='text-align: center'>
-                    <img src='magic/pics/weatherly.png' alt='screenshot' width='500'>
-                </div>
-            </div>
-            <div class='P8'>
-                <h2>Wiki Search</h2> <a target='_blank' href='http://mayankshekhar03.github.io/wiki-search'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <p>Simple Wikipedia search web app.</p>
-                <div style='text-align: center'>
-                    <img src='magic/pics/wiki.png' alt='screenshot' width='500'>
-                </div>
-            </div>
-            <div class='P9'>
-                <h2>WordOut</h2> <a target='_blank' href='http://wordout.000webhostapp.com'><button class='link'><i class="fa fa-link" aria-hidden="true"></i> Project Link</button></a>
-                <p>Created WordOut website as my third year project. A broadcast can be created with an unique id and notices can be shared with the concerned people by sharing that id with them. Repository is on: https://github.com/mayankshekhar03/wordout</p>
-                <div style='text-align: center'>
-                    <img src='magic/pics/wordout.png' alt='screenshot' width='500'>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class='container' id='contact' style='text-align: center'>
-        <button class='back'>&lt; </button>
-        <h2>Contact</h2>
-        <div style='margin-top: 130px; line-height: 2;'>
-            <p>I am on 
-				<a href="http://lnked.in/may03" target="_blank" style='color: blue'><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a>.<br> I have a 
-				<a href="https://github.com/mayankshekhar03/resume/raw/master/mayank_shekhar_resume.pdf" target="_blank" style='color: magenta'><i class="fa fa-file-text" aria-hidden="true"></i> resume</a>.<br> I am highly active on 
-				<a href="https://www.quora.com/profile/Mayank-Shekhar-31" target="_blank" style="color: maroon"><i class="fa fa-quora" aria-hidden="true"></i> Quora</a> and a little active on 
-				<a href="https://twitter.com/mayankshekhar03" target="_blank" style="color: cornflowerblue"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>.<br> You may contact me via <a href="mailto:mayankshekhar03@gmail.com" style="color: green"><i class="fa fa-envelope" aria-hidden="true"></i> E-mail</a>.
-        </div>
-    </div>
-    <div class='container' id='info'>
-        <button class='back'>&lt; </button>
-        <h2>About Me</h2>
-        <div style='padding: 10px; overflow: auto;'>
-            Hello,
-            
-            I am Mayank Shekhar. I am currently in final year of B.Tech. in Computer Science and Engineering. I find a lot of things interesting but designing and builting websites is the best thing for me to do. In my free time I enhance my coding and algorithmic problem solving skills.
-            <br><br>
-            <div style='padding: 10px; border:3px solid blue; border-radius: .5em; width: 50%;'>
-                <em>BBDNITM, Lucknow</em><br>
-                B.Tech &#8226; CS&amp;E
-                
-                <div style='float: right; padding: 4px; background: blue; color: white; border: 0px;'>2014 - 2018</div>
-            </div>
-        </div>
-    </div>
-</body>
+              </div>
+      
+            </main>
+      
+            <footer class="footer">
+              <p>&copy; Mayank Shekhar 2018</p>
+            </footer>
+      
+          </div> <!-- /container -->
+    </body>
 </html>
