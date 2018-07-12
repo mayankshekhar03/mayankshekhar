@@ -7,28 +7,40 @@
 	<title>Mayank Shekhar - Profile</title>
 	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="sheets/index.css">
-	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
 <body>
 <div class="header"><h1>Mayank Shekhar</h1></div>
 	<div class="content">
 	<div class="data">
-			<h2>Hello and 
-				<script type="text/javascript">datetoday = new Date();
-				timenow=datetoday.getTime();
-				datetoday.setTime(timenow);
-				thehour = datetoday.getHours();
-				if (thehour > 16) display = "Evening";
-				else if (thehour >11) display = "Afternoon";
-				else display = "Morning";
-				var greeting = ("Good " + display + "!");
-				document.write(greeting);
-				</script>
-			</h2>
-			<p>My name is Mayank Shekhar. I am a Computer Science &amp; Engineering undergraduate. I chose CS because the internal working (software part) of machines always fascinated me. I try to build user-friendly and efficient programs. For me, there isn't anything more interesting than coding.</p>
+			<h2>Hello,</h2>
+			<p>My name is Mayank Shekhar. I am a Computer Science &amp; Engineering graduate. I chose CS because the internal working (software part) of machines always fascinated me. I try to build user-friendly and efficient programs. For me, there isn't anything more interesting than coding.</p>
 			<div id="interests">
 				<h2>Interests</h2>
-				<p>As I mentioned earlier I like coding and building efficient programs. I recently built my third year project <a href="https://github.com/mayankshekhar03/wordout" target="_blank">WordOut</a> (<a href="http://wordout.000webhostapp.com" target="_blank">working link</a>) which can solve a major communication problem within organizations.</p>
+				<p>I work on interesting projects in my free time. 
+					<ul>
+						<li><a href="https://goo.gl/fGCj9g" target="_blank">URL Shortener</a>
+							<ul><li>Created a URL Shortener Microservice which takes an URL as input and gives JSON text as an output which contains shortened URL.</li></ul>
+						</li>
+						<li><a href="https://goo.gl/LgGG9D" target="_blank">Greetings Generator</a>
+							<ul><li>Created a greeting generator web app which can be used to generate customized e-greeting cards on different occasions. The e-greeting can be shared on different social media platforms using the permanent link generated.</li></ul>
+						</li>
+						<li><a href="https://goo.gl/CM9j6D" target="_blank">GAP Analysis Tool</a>
+							<ul><li>Worked on the frontend of a GAP Analysis tool while on a short internship at Bookaholicc.com (now Zypher.co). Used material design library and designed the layout and positioning of elements of the tool.</li></ul>
+						</li>
+						<li><a href="https://goo.gl/P9v7Ys" target="_blank">Pomodoro Clock</a>
+							<ul><li>A simple Pomodoro clock built with functionality of sessions and break timers that run sequencially.</li></ul>
+						</li>
+						<li><a href="https://goo.gl/mYUatL" target="_blank">Wiki Search</a>
+							<ul><li>A simple wikipedia search tool created using Wikimedia action API taking advantage of AJAX.</li></ul>
+						</li>
+						<li><a href="https://goo.gl/Zwd1MV" target="_blank">Weatherly</a>
+							<ul><li>Weather web-app that uses the current location of the user to display weather information.</li></ul>
+						</li>
+						<li><a href="https://goo.gl/22hd7K" target="_blank">Wordout</a>
+							<ul><li>Wordout provides fast and easy one to many communication channels in big organizations. Just like notices on a notice board.</li></ul>
+						</li>
+					</ul>
+				</p>
 			</div>
 			<div id="currently-learning">
 				<h2>Learning List</h2>
@@ -59,7 +71,10 @@
 				<a href="https://twitter.com/mayankshekhar03" target="_blank">Twitter</a>. You can contact me via <a href="mailto:mayankshekhar03@gmail.com">E-mail</a>.
 				</p>
 			</div>
+			<div id="greeting"></div>
 	</div>
 	</div>
 </body>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/index.js"></script>
 </html>
