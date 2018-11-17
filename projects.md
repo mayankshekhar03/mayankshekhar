@@ -1,1 +1,11 @@
 ### List of projects I have worked on:
+- Url shortener microservice. ([repo](https://github.com/mayankshekhar03/usm))
+- Time scanner. *scans time from a given input* ([repo](https://github.com/mayankshekhar03/time-scanner))
+- Wiki-Search. ([live](http://mshekhar.me/wiki-search))
+- Simon. ([live](http://mshekhar.me/simon))
+- Tic-tac-toe ([live](http://mshekhar.me/tic-tac-toe))
+- Pomodoro clock. ([live](http://mshekhar.me/pomodo))
+- Calcy. ([live](http://mshekhar.me/calcy))
+- Twitch. ([live](http://mshekhar.me/twitch))
+- Weatherly. ([live](http://mshekhar.me/weatherly))
+- Random quotes. ([live](http://mshekhar.me/random-pro-quotes))
