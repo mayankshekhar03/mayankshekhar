@@ -8,5 +8,5 @@
 - Calcy. ([live](http://mshekhar.me/calcy))
 - Twitch. ([live](http://mshekhar.me/twitch))
 - Weatherly. ([live](http://mshekhar.me/weatherly))
-- Wordout ([live](https://wordout.000webhostapp.com))
+- Wordout ([live](http://wordout.000webhostapp.com))
 - Random quotes. ([live](http://mshekhar.me/random-pro-quotes))
