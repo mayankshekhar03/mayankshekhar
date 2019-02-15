@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An Almost Tragic Accident and Life After That"
-date:   2018-02-06
+date:   2019-02-06
 image: life.jpeg
 ---
 
