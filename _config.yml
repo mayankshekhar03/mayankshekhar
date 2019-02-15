@@ -1,6 +1,27 @@
-theme: jekyll-theme-cayman
 title: Mayank Shekhar
 description: Wandering Software Engineer
 
-plugins:
- - jemoji
+url: https://mshekhar.me
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+
+social:
+  github: mayankshekhar03
+  twitter: mayankshekhar03
+  email: mayankshekhar03@gmail.com
+
+google_analytics: "UA-58263416-1"
