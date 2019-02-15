@@ -2,7 +2,7 @@ title: Mayank Shekhar
 description: Wandering Software Engineer
 
 url: https://mshekhar.me
-baseurl: "https://mshekhar.me"
+baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
