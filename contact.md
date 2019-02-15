@@ -9,7 +9,7 @@ title: Contact Me
     <p class="intro">You can contact by filling out this form and submitting it.</p>
     <p>The form is provided by <a href="http://formspree.io/">Formspree.</a></p>
   </div>
-  <form action="http://formspree.io/mayankshekhar03@gmail.com" method="POST">
+  <form action="https://formspree.io/mayankshekhar03@gmail.com" method="POST">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
