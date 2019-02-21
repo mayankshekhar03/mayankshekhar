@@ -5,8 +5,9 @@ date:   2017-12-10
 description: My solution to the hourglass problem on hackerrank.
 ---
 
-<p class="intro"><span class="dropcap">M</span>y solution to the hourglass problem given [here][problem-link].</p>
+My solution to the hourglass problem given [here][problem-link].
 
+[problem-link]: https://www.hackerrank.com/challenges/30-2d-arrays/problem
 
 {% highlight html %}
 int main(){ //author: Mayank Shekhar (github.com/mayankshekhar03)
@@ -36,5 +37,3 @@ int main(){ //author: Mayank Shekhar (github.com/mayankshekhar03)
     return 0;
 }
 {% endhighlight %}
-
-[problem-link]: https://www.hackerrank.com/challenges/30-2d-arrays/problem
