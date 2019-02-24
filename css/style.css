@@ -704,9 +704,9 @@ img, video, audio, iframe, object {
 LINK STYLING
 ***************/
 a {
-  color: seagreen; }
+  color: rgba(36, 147, 250, 0.74); }
   a:hover {
-    color: #1b5233; }
+    color: #6a399760; }
 
 /***************
 MENU STYLING
