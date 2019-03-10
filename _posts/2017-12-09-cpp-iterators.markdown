@@ -4,7 +4,9 @@ title:  "[C++] Iterators"
 date:   2017-12-09
 ---
 
-<p class="intro"><span class="dropcap">I</span>terators are used to point at memory addresses. As the name suggests, iterators can be used to sequentially iterate through memory.</p>
+Iterators are used to point at memory addresses. As the name suggests, iterators can be used to sequentially iterate through memory.
+
+<!--more-->
 
 Header that should be included in order to work with iterators is:
 

@@ -4,7 +4,10 @@ title:  "[C++] Understanding Singly Linked List"
 date:   2017-04-23
 ---
 
-<p class="intro"><span class="dropcap">A</span> linked list is a data structure which stores data in non-contiguous memory. There are various advantages of linked lists over arrays:</p>
+A linked list is a data structure which stores data in non-contiguous memory.
+<!--more-->
+
+There are various advantages of linked lists over arrays:
 
 1. The size of linked list is not fixed.
 2. It’s easier to add a new element in a linked list.

@@ -5,7 +5,9 @@ date:   2018-08-21
 ---
 
 
-<p class="intro"><span class="dropcap">S</span>ince Windows is designed to work on PCs of various configurations and manufacturers, sometimes it becomes an issue to resolve any problem that is encountered because there are many possible reasons why that issue might have occurred in the first place. It doesn’t mean that Windows is an unusable operating system, rather it simply means that there are trade-offs in between universal compatibility and compatibility issues.</p>
+Since Windows is designed to work on PCs of various configurations and manufacturers, sometimes it becomes an issue to resolve any problem that is encountered because there are many possible reasons why that issue might have occurred in the first place. It doesn’t mean that Windows is an unusable operating system, rather it simply means that there are trade-offs in between universal compatibility and compatibility issues.
+
+<!--more-->
 
 But these issues get resolved very easily and are not that hard to get rid of. On the contrary, this is the reason why Windows is still popular because it is versatile and provides loads of features.  Normally whenever an issue occurs it is better to show it to an expert rather than experimenting with your system by yourself but there are some techniques which sometimes come in handy if you want to fix a problem without harming your system.
 

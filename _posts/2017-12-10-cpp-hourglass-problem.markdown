@@ -7,6 +7,8 @@ description: My solution to the hourglass problem on hackerrank.
 
 My solution to the hourglass problem given [here][problem-link].
 
+<!--more-->
+
 [problem-link]: https://www.hackerrank.com/challenges/30-2d-arrays/problem
 
 {% highlight cpp %}
