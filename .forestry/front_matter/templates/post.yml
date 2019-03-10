@@ -21,3 +21,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- _posts/forestry-is-a-great-cms-for-your-static-site-management.md
