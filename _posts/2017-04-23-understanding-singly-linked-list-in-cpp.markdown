@@ -5,6 +5,7 @@ date:   2017-04-23
 ---
 
 A linked list is a data structure which stores data in non-contiguous memory.
+
 <!--more-->
 
 There are various advantages of linked lists over arrays:
