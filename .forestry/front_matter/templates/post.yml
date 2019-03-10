@@ -1,0 +1,23 @@
+---
+label: post
+hide_body: false
+fields:
+- type: text
+  label: Title
+  name: title
+  description: Give a suitable title for the post.
+  config:
+    required: true
+- type: textarea
+  name: summary
+  label: Summary
+  description: Give a summary for the post.
+- type: textarea
+  name: content
+  label: Content
+  description: Your post goes here.
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
