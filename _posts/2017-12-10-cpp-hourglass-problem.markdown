@@ -9,7 +9,7 @@ My solution to the hourglass problem given [here][problem-link].
 
 [problem-link]: https://www.hackerrank.com/challenges/30-2d-arrays/problem
 
-{% highlight html %}
+{% highlight cpp %}
 int main(){ //author: Mayank Shekhar (github.com/mayankshekhar03)
     /*curr = value of current hour glass
       max = hourglass with maximum value

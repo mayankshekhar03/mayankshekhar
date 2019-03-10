@@ -1,1 +1,3 @@
-Personal website created using long-haul, jekyll, and github page.
+# my website #
+
+built using jekyll.

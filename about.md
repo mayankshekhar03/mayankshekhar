@@ -1,11 +1,10 @@
 ---
-layout: default
-title: About Me
+layout: page
+title: About
 ---
 
-<div class="post">
-	<h1 class="pageTitle">About Me</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt="">
-	<p class="intro">I'm a software engineer currently residing in Bangalore. I love building software, and learning new tech.</p>
-	<p>I built this site using Jekyll and it's hosted on Github.</p>
-</div>
+I am a software engineer currently in Bengaluru. I like to work on any of the phases of software development lifecycle.
+
+---
+
+This website is built on Jekyll and hosted on Github.

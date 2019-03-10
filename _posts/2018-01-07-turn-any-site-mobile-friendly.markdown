@@ -2,7 +2,7 @@
 layout: post
 title:  "Turn Any Site Mobile Friendly"
 date:   2018-01-07
-image: mobile.jpg
+cover-image: mobile.jpg
 ---
 
 <p class="intro"><span class="dropcap">S</span>o after seeing hundreds of websites that are not mobile friendly I decided to write this post to give little hacks and techniques to make any site mobile friendly.</p>

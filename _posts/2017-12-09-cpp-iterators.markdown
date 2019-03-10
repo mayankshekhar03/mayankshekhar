@@ -18,7 +18,7 @@ Operations of iterators :-
 
 Example:
 
-{% highlight html %}
+{% highlight cpp %}
 #include <iostream>
 #include <interator>
 #include <vector>

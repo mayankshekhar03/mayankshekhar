@@ -9,10 +9,7 @@ date:   2017-04-23
 1. The size of linked list is not fixed.
 2. It’s easier to add a new element in a linked list.
 
-<figure>
-	<img src="{{ '/assets/img/sll.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig1. - A singly linked list</figcaption>
-</figure>
+![SLL]({{ site.baseurl }}/img/sll.png) <small>Fig1. - A singly linked list. Source: [Wikipedia](https://en.wikipedia.org/wiki/Linked_list)</small>
 
 Each element in a singly linked list contains a link (pointer) to its next element. The last element in a linked list has a pointer to NULL.
 
@@ -29,17 +26,11 @@ Now that we have a structure to hold data in a single node we need to define a c
 
 The UML for the class is given below:
 
-<figure>
-	<img src="{{ '/assets/img/slluml.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig2. - UML for the linkedList class</figcaption>
-</figure>
+![SLL]({{ site.baseurl }}/img/slluml.png) <small>Fig2. - UML for the linkedList class.</small>
 
 ## Adding a Node
 
-<figure>
-	<img src="{{ '/assets/img/sllnewnode.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig3. - Adding new node</figcaption>
-</figure>
+![SLL]({{ site.baseurl }}/img/sllnewnode.png) <small>Fig3. - Adding new node</small>
 
 Insertion of a node is performed by `insertNode(node* newNode, int position)` function. It takes two arguments, first is the node that needs to be inserted and the second one is the position where the node is to be inserted.
 
@@ -51,10 +42,7 @@ There are three cases which should be taken into consideration while inserting a
 
 ## Delete a Node from a Linked List
 
-<figure>
-	<img src="{{ '/assets/img/slldel.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig4. - Deleting node</figcaption>
-</figure>
+![SLL]({{ site.baseurl }}/img/slldel.png) <small>Fig4. - Deleting node.</small>
 
 A node can be deleted in the same way we inserted it using `removeNode(int position)`:
 
