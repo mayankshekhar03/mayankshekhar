@@ -2,8 +2,7 @@
 title: Forestry is a great CMS for your static site management
 summary: If you're using Hugo, Jekyll or Vuepress there's a high chance that that
   you only commit when you're around your laptop or computer while living in a world
-  where mobile as all the power to make it easier for you. If you agree, forestry.io
-  is for you.
+  where mobile as all the power to make it easier for you. forestry.io is for you.
 content: |-
   Jekyll is a life-saver for those who don't want to burn their pockets just to post their daily musings online. It's fast because it doesn't use databases to store the web data. Why would you need databases when your website is not that complex anyway?
 
