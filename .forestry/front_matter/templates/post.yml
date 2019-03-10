@@ -12,14 +12,5 @@ fields:
   name: summary
   label: Summary
   description: Give a summary for the post.
-- type: textarea
-  name: content
-  label: Content
-  description: Your post goes here.
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
 pages:
 - _posts/2019-03-10-forestry-is-a-great-cms-for-your-static-site-management.md
