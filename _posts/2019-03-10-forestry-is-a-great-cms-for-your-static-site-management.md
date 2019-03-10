@@ -11,3 +11,6 @@ content: |-
 date: 2019-03-10 17:29:00 +0000
 
 ---
+Jekyll is a life-saver for those who don't want to burn their pockets just to post their daily musings online. It's fast because it doesn't use databases to store the web data. Why would you need databases when your website is not that complex anyway?
+
+Jekyll coverts your texts into blog aware `html` pages which are organized just like WordPress posts, you know WordPress, right? Right. So, the thing is it gets a bit hectic because you don't get a good UI to compose your post. Jekyll uses `markdown`. I am comfortable with using `markdown` but I'm sure there would be many out there who don't want to use markdown, and prefer rich text editor instead. So, forestry.io is something that will help.
