@@ -4,7 +4,7 @@ title: About
 ---
 
 I am a software engineer currently in Bengaluru. I like to design, code, test, and debug.
-<!--
+<!---
 Here are some of the projects I have worked on (not updated since 2017):
 - [Audit WebApp](https://us-central1-audit-app-819d8.cloudfunctions.net/app/home) - Worked on front-end.
 - [Calcy](http://mayankshekhar03.github.io/calcy) - online calculator.
