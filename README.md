@@ -1,3 +1,3 @@
-# my website #
+# My website #
 
-built using jekyll.
+Hosted on GitHub.

@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am a software engineer currently in Bengaluru. Currently exploring different phases involved in software development, building meaningful software along the way.
+I am a software engineer currently in Bengaluru. Exploring different phases involved in software development, building meaningful software along the way.
 
 <!---
 Here are some of the projects I have worked on (not updated since 2017):
