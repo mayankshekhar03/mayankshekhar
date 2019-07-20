@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-gem "jekyll", ">= 3.6.3"
+gem "jekyll"
 gem 'rouge'
-gem "yajl-ruby", ">= 1.3.1"
+gem "yajl-ruby"
 gem 'github-pages', group: :jekyll_plugins

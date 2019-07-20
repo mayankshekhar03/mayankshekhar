@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I am a software engineer currently in Bengaluru. I like to design, code, test, and debug.
+I am a software engineer currently in Bengaluru. Currently exploring different phases involved in software development, building meaningful software along the way.
 
 <!---
 Here are some of the projects I have worked on (not updated since 2017):
@@ -18,7 +18,3 @@ Here are some of the projects I have worked on (not updated since 2017):
 - [Wiki Search](http://mayankshekhar03.github.io/wiki-search) - search for Wikipedia articles.
 - [Wordout](http://wordout.000webhostapp.com/) - broadcast webapp.
 -->
-
----
-
-This website is built on Jekyll and hosted on Github.
