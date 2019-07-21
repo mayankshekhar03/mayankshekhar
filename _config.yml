@@ -45,7 +45,7 @@ footer-text: Have a good day!
 logo-image: # /img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#00f0ff"
+theme-color-attr: "#ff0000"
 
 # Color of Microsoft live Tile.
 ms-tile-color: "#00f0ff"
